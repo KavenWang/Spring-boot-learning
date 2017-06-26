@@ -4,9 +4,9 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class KavenBasicApplication {
+public class KavenCoreApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(KavenBasicApplication.class, args);
+		SpringApplication.run(KavenCoreApplication.class, args);
 	}
 }
