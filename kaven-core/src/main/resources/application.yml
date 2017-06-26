@@ -1,0 +1,18 @@
+server:
+  port: 8080
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  type-aliases-package: com.kaven.kavencore.mapper
+  
+spring:
+  profiles:
+    active: jdbc
+  jpa:
+    hibernate:
+      ddl-auto: true
+    
+pagehelper:
+  helper-dialect: mysql
+  reasonable: true
+  support-methods-arguments: true
+  params: countSql    
